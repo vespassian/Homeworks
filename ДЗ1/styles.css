@@ -1,3 +1,7 @@
+   .wrapper {
+       background-color:#a9a9a9;
+   }
+
   .mainPage {
       width: 525px;
       height: 715px;
@@ -6,24 +10,27 @@
 
   }
     h1 {
-        font: bold;
-        font-size: inherit;
-        width: 220px;
+        width: auto;
         margin: 0 auto;
-        padding-top: 50px;
-        padding-bottom: 20;
-    }
-   .foto{
-       width: 134px;
-       height: 128px;
-       background-color: white;
+        padding-top: auto;
         text-align: center;
-        margin: 20px auto;
+    }
+   .photo{
+       width: 134px;
+       height: 145px;
+       background-color: white;
+       text-align: center;
+       margin: 20px auto;
 
    }
 
    .prof {
-        margin: auto 20px;
-        padding: 10px;
-        border-bottom: 1px solid;
-        }
+                     margin: auto 20px;
+                     padding: 10px;
+                     border-bottom: 1px solid darkgrey;
+                 }
+     .lastprof  {
+       margin: auto 20px;
+       padding: 10px;
+       border-bottom: 0;
+   }
